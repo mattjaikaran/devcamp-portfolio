@@ -61,3 +61,6 @@ gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
 gem 'jaikaran_view_tool', git: 'https://github.com/mattjaikaran/jaikaran_view_tool'
+
+
+gem 'petergate', '~> 1.7', '>= 1.7.5'
