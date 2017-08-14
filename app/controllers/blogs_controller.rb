@@ -6,7 +6,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    if  logged_in?(:site_admin)
+    if logged_in?(:site_admin)
       @blogs = Blog.recent.page(params[:page]).per(5)
     else
       @blogs = Blog.published.recent.page(params[:page]).per(5)
@@ -91,6 +91,6 @@ class BlogsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def blog_params
-      params.require(:blog).permit(:title, :body)
+      params.require(:blog).permit(:title, :body, :topic_id)
     end
 end
