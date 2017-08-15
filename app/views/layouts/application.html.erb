@@ -7,6 +7,8 @@
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|PT+Sans|PT+Sans+Narrow|Open+Sans" rel="stylesheet">
+
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
     <%= favicon_link_tag 'favicons/favicon.ico' %>
@@ -22,7 +24,7 @@
         <div class="cover-container">
 
           <%= video_tag(
-              'HardDrivePhotojpeg.mp4',
+              'blurry-night.mp4',
               id: 'background',
               autoplay: true,
               loop: true,
