@@ -80,6 +80,11 @@ h6, .h6 {
   border-left: .3rem solid transparent;
 }
 
+@media (max-width: 767px) {
+  .nav-link.active {
+    margin-right: 94%;
+  }
+}
 
 /*
  * Blog name and description

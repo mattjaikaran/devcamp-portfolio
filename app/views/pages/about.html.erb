@@ -5,38 +5,41 @@
     <hr>
 
     <div class="row">
-      <div class="col-md-4">
-        <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
+      <div class="col-md-12 col-lg-4">
+        <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img skills col-md-12' %>
         <div class="skills">
           <% @skills.each do |skill| %>
             <div class="skill">
               <h4><%= skill.title %></h4>
               <div class="progress">
-                <div
+                <!-- <div
                   class="progress-bar progress-bar-striped bg-warning"
                   role="progressbar"
                   aria-valuenow="<%= skill.percent_utilized %>"
                   aria-valuemax="100"
                   style="width: <%= skill.percent_utilized %>%"
-                ></div>
+                ></div> -->
               </div>
             </div>
           <% end %>
         </div>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-lg-8">
         <p class="about-me-1">
           I'm a fullstack web developer based in New York City.
           Certified in Full-Stack Web Development at General Assembly NYC.
           I work with several lanugages and frameworks, my personal favorites are React and Ruby on Rails.
+          <br><br>
+          Besides Web Development work I also do Branding, SEO, Design, and Marketing.
         </p>
         <hr>
         <h5>A little more about me.</h5>
         <p class="about-me-2">
           I was born and raised in South Florida. Growing up with a passion for music I decided to pursue
           it professionally. I attended Belmont University in Nashville, TN double majoring in Music Business
-          and Marketing. While in Nashville I played and toured in several different artist.
+          and Marketing. While in Nashville I played and toured with several different artists.
+          I moved to New York City in February 2016 to pursue Web Development.
         </p>
 
         <p>
