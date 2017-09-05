@@ -85,15 +85,13 @@ h6, .h6 {
 }
 
 @media (max-width: 767px){
-  // .masthead-brand {
-  //   float: left;
-  // }
+  .masthead-brand {
+  }
   .nav {
     padding-top: 0;
   }
   .navbar {
     padding: 0;
-    float: right;
   }
   #navbarSupportedContent {
     background-color: rgba(0, 0, 0, 0.3);
@@ -108,14 +106,9 @@ h6, .h6 {
     border: 1px solid white;
   }
 }
-@media (max-width: 639px) {
-  .cover-heading {
-  }
-}
 @media (min-width: 768px) and (max-width: 778px){
   .nav {
     margin-left: 5px;
-    margin-top: -7%;
   }
 }
 @media(min-width: 768px) and (max-width: 840px) {
@@ -177,17 +170,6 @@ h6, .h6 {
 .navbar-dark > button {
   border-color: white;
 }
-
-
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
 
 /*
  * Cover
@@ -295,6 +277,20 @@ h6, .h6 {
 }
 
 
+
+.tech-news {
+   color: black;
+   margin: 20px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
 .app-card-container {
   color: black;
   text-align: left;
@@ -326,7 +322,6 @@ h6, .h6 {
 #about-me-card {
   padding-top: 10%;
   padding-bottom: 10%;
-  margin-bottom: 2%;
 }
 
 .about-me-1 {
@@ -344,10 +339,4 @@ h6, .h6 {
   font-size: .65em;
   margin-left: 10px;
 }
-
-
-
-
-
-
 // END
