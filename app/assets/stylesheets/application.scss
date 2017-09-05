@@ -136,9 +136,12 @@ h6, .h6 {
   border-bottom-color: #fff;
 }
 
+nav {
+  color: white;
+}
+
 @media (max-width: 768px) {
   nav > button {
-    float: right;
     position: fixed;
     border-color: white;
   }
