@@ -22,6 +22,10 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+nav > button {
+  float: right;
+  border: 1px solid white;
+}
 
 /*
  * Base structure
@@ -82,8 +86,10 @@ h6, .h6 {
 }
 
 .masthead-brand {
-  margin-bottom: 0;
+  float: left;
+  margin-top: 2%;
   color: #fff;
+  font-size: 2rem;
 }
 
 @media (max-width: 767px){
@@ -139,13 +145,6 @@ h6, .h6 {
 
 nav {
   color: white;
-}
-
-@media (max-width: 768px) {
-  nav > button {
-    position: fixed;
-    border-color: white;
-  }
 }
 
 

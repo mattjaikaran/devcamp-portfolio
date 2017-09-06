@@ -1,10 +1,17 @@
-development:
-  adapter: async
+# development:
+#   adapter: async
+
+local: &local
+  url: redis://localhost:3000
+
+development: *local
 
 test:
-  adapter: async
+  adapter: postgresql
+  url: redis://localhost:3000
+  channel_prefix: JaikaranPortfolio_test
 
 production:
   adapter: redis
   url: redis://localhost:6379/1
-  channel_prefix: DevcampPortfolio_production
+  channel_prefix: JaikaranPortfolio_production
