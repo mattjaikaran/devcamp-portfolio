@@ -92,6 +92,10 @@ h6, .h6 {
   font-size: 2rem;
 }
 
+.masthead-brand > a:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 767px){
   .nav {
     padding-top: 0;
@@ -99,6 +103,7 @@ h6, .h6 {
   #navbarSupportedContent {
     background-color: rgba(0, 0, 0, 0.3);
     vertical-align: middle;
+    margin-top: 10%;
   }
   .navbar-light .nav-toggler {
     border: 1px solid white;
@@ -123,7 +128,6 @@ h6, .h6 {
 
 @media (max-width: 640px) {
   .cover-heading {
-    font-size: 0.8em;
     margin-top: 10%;
   }
   .lead {
