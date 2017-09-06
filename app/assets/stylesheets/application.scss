@@ -121,6 +121,19 @@ h6, .h6 {
   }
 }
 
+@media (max-width: 640px) {
+
+  .masthead-brand {
+    font-size: 0.8em;
+  }
+  .cover-heading {
+    margin-top: 10%;
+  }
+  .lead {
+    margin-bottom: 10%;
+  }
+}
+
 .nav-masthead .nav-link {
   padding: 1rem 0;
   font-weight: bold;
@@ -143,8 +156,11 @@ h6, .h6 {
   border-bottom-color: #fff;
 }
 
-nav {
-  color: white;
+.navbar-toggler {
+  float: right;
+  margin-top: 2%;
+  padding-top: 8px;
+  border: 1px solid white;
 }
 
 
