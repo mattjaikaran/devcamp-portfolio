@@ -7,8 +7,15 @@ body {
   font-family: "Droid Sans", serif;
 }
 
+.navbar-brand {
+  color: black;
+}
 .navbar {
   margin-bottom: 0;
+}
+
+#navbarHeader {
+  background-color: black;
 }
 
 .jumbotron {
