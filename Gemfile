@@ -7,7 +7,7 @@ end
 
 gem 'rails', '~> 5.1.0'
 # gem 'sqlite3'
-gem 'bundler', '~> 1.15', '>= 1.15.4'
+gem 'bundler', '~> 1.16.0.pre.3'
 gem 'pg'
 gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
