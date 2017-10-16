@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.1.0'
-# gem 'sqlite3'
+gem 'sqlite3'
 gem 'bundler', '~> 1.15', '>= 1.15.4'
 gem 'pg'
 gem 'puma', '~> 3.7'
@@ -51,5 +51,6 @@ gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.1'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'mail_form'
 
 ruby "2.4.0"
